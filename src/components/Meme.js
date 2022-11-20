@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react"
 
-
-
-
 export const Meme = () => {
 
     const [allMemes, setAllMemes] = useState([])
@@ -48,7 +45,6 @@ export const Meme = () => {
             })
         )
     }
-
 
     return (
         <main>
